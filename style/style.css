@@ -1,0 +1,8 @@
+/*! import settings */
+@import url(settings.css);
+
+/*! import css components  */
+@import url(./components/header.css);
+@import url(./components/nav.css);
+@import url(./components/baner1.css);
+@import url(./components/form1.css);

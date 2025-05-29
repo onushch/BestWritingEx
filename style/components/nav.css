@@ -1,0 +1,35 @@
+nav{
+  background-color: var(--color_main_1);
+  height: 40px;
+  filter: drop-shadow(2px 3.464px 3.5px #95aeb6);
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a{
+  font-family: Roboto_Regular;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--color_btn_text);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 8px 31px;
+  position: relative;
+  &:hover{
+    background-color: var(--color_btn_send_message_hover);
+    color: var(--color_btn_text_hover);
+    box-shadow: -6px 0px 0px var(--color_btn_send_message_hover),
+    6px 0px 0px var(--color_btn_send_message_hover);
+    z-index: 1;
+  }
+}
+
+nav ul .border-li::after{
+  content: '';
+  border: 2px solid #fff;
+  border-radius: 3px;
+}

@@ -1,0 +1,58 @@
+header{
+  background-color: var(--color_main_2);
+  background-image: url(../../images/Bg1.svg);
+  height: 56px;
+}
+
+header span, header a{
+  font-size: 20px;
+  color: #85a1b7;
+  font-weight: 250;
+  font-family: Roboto_Regular;
+}
+
+header a{
+  color: #caddea;
+  text-decoration: none;
+}
+
+header .login, header .live-chat{
+  font-size: 22px;
+  /* letter-spacing: 1px;
+  line-height: 24px; */
+  text-transform: uppercase;
+  color: var(--color_btn_text);
+  font-weight: 400;
+  font-family: Roboto_Regular;
+
+  &:hover{
+    color: var(--color_btn_text_hover)
+  }
+}
+
+header .login::after{
+  content: '';
+  display: inline-block;
+  background-image: url(../../images/Login.svg);
+  width: 50px;
+  height: 28px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+header .live-chat::after{
+  content: '';
+  display: inline-block;
+  background-image: url(../../images/Chat.svg);
+  width: 50px;
+  height: 28px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+
+header .login:hover::after{
+  background-image: url(../../images/Login2.svg);
+}
+header .live-chat:hover::after{
+    background-image: url(../../images/Chat2.svg);
+
+}
