@@ -67,5 +67,9 @@
   text-decoration: none;
   border: 1px solid #0983e5;
   margin-bottom: 20px;
+  &:hover {
+    color: #e3ebf3;
+    background-color: #0983e5;
+  }
 }
 

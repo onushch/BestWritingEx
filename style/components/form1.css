@@ -166,7 +166,6 @@
 }
 
 
-
 .contain .order h2 {
     background: #dd0000;
     width: 310px;
@@ -177,7 +176,7 @@
     filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
     &:hover {
         cursor: pointer;
-        color: #ffffff9c;
+        color: #ffffffa2;
     }
     
 }
@@ -190,6 +189,6 @@
     border-right: 30px solid transparent;
     position: relative;
     bottom: 25px;  
-}
+    }
 
 

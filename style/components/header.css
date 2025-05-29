@@ -13,24 +13,21 @@ header span, header a{
 
 header a{
   color: #caddea;
-  text-decoration: none;
 }
 
-header .login, header .live-chat{
+ .login,  .live-chat{
   font-size: 22px;
-  /* letter-spacing: 1px;
-  line-height: 24px; */
   text-transform: uppercase;
   color: var(--color_btn_text);
   font-weight: 400;
   font-family: Roboto_Regular;
-
+  text-decoration: none;
   &:hover{
     color: var(--color_btn_text_hover)
   }
 }
 
-header .login::after{
+ .login::after{
   content: '';
   display: inline-block;
   background-image: url(../../images/Login.svg);
@@ -39,7 +36,7 @@ header .login::after{
   background-repeat: no-repeat;
   margin-left: 10px;
 }
-header .live-chat::after{
+ .live-chat::after{
   content: '';
   display: inline-block;
   background-image: url(../../images/Chat.svg);
@@ -49,10 +46,10 @@ header .live-chat::after{
   margin-left: 10px;
 }
 
-header .login:hover::after{
+ .login:hover::after{
   background-image: url(../../images/Login2.svg);
 }
-header .live-chat:hover::after{
+ .live-chat:hover::after{
     background-image: url(../../images/Chat2.svg);
 
 }
