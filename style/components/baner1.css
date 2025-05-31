@@ -11,7 +11,7 @@
 
 @media screen and (max-width:992px){
   .baner .bg-img-md{
-    background-image: url(../../images/Bg1-1.svg);
+    background-image: url(../../images/Bg1.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
