@@ -35,9 +35,21 @@ nav ul .border-li::after {
   border-radius: 3px;
 }
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width: 1400px) {
   nav ul li a {
     padding: 8px 21px;
   }
+}
 
+nav span,
+header a {
+  font-size: 16px;
+  color: #caddea;
+  font-weight: 250;
+  font-family: Roboto_Regular;
+}
+
+nav a {
+  color: #caddea;
+  text-decoration: none;
 }
