@@ -20,7 +20,7 @@
     align-items: center;
     padding-left: 10px;
     justify-content: start;
-    width: 720px;
+    width: auto;
     height: 60px;
     filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
     margin-bottom: 50px;
@@ -57,7 +57,7 @@
     align-items: center;
     padding-left: 33px;
     justify-content: center;
-    width: 421px;
+    width: auto;
     height: 60px;
     filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
     margin-bottom: 50px;
