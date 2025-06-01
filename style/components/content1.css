@@ -1,0 +1,144 @@
+.content1 {
+
+    background-image: url(../../images/Bg2.svg);
+    background-color: #f4f6fa;
+    display: flex;
+    justify-content: center;
+}
+
+.content1 .text {
+    margin-top: 50px;
+    max-width: 1140px;
+    width: 100%;
+    height: 65px;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75));
+    background-color: #caddea;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content1 .text::before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 30px solid var(--color_btn_send_message_hover);
+    border-right: 30px solid transparent;
+    position: absolute;
+    top: 65px;
+    left: 0px;
+}
+
+.content1 p {
+    height: 151px;
+    font-size: 18px;
+    color: #000000;
+    font-family: "Arial Narrow";
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+
+}
+
+.container-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cont-4 {
+    padding: 5px;
+    width: 280px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75));
+    background-color: #ffffff; */
+}
+
+.cont-4 h4 {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #1b7fd0;
+    font-weight: 500;
+    font-family: "Roboto_Medium", sans-serif;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.cont-4 p {
+    height: 235px;
+    flex: 1;
+
+}
+
+.cont-4:hover {
+    background-color: white;
+    cursor: pointer;
+
+}
+.cont-4 .image-wrapper  {
+  width: 110px;
+  height: 110px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cont-4 .img1 {
+    background-image: url(../../images/Element1.svg);
+}
+
+.cont-4:hover .img1 {
+    background-image: url(../../images/Element1_dark.svg);
+}
+
+.cont-4 .img2 {
+    background-image: url(../../images/Element2.svg);
+}
+
+.cont-4:hover .img2 {
+    background-image: url(../../images/Element2_dark.svg);
+}
+
+.cont-4 .img3 {
+    background-image: url(../../images/Element3.svg);
+}
+
+.cont-4:hover .img3 {
+    background-image: url(../../images/Element3_dark.svg);
+}
+
+.cont-4 .img4 {
+    background-image: url(../../images/Element4.svg);
+}
+
+.cont-4:hover .img4 {
+    background-image: url(../../images/Element4_dark.svg);
+}
+
+.cont-4 button {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 100;
+    font-family: "Roboto_Regular";
+    text-align: center;
+    background-color: #075da2;
+    border: 0;
+    padding: 5px;
+}
+
+
+.cont-4 button:hover {
+    background-color: #054376;
+    cursor: pointer;
+}

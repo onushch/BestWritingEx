@@ -1,5 +1,7 @@
 .baner{
   background-color: #e3ebf3;
+  margin: 0px;
+  padding: 0px;
 }
 
 .baner .bg-img{
@@ -41,7 +43,6 @@
   border-right: 30px solid transparent;
   position: relative;
   top: 45px;
-  right: 66px;
 }
 
 .baner h4{
@@ -90,9 +91,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 33px;
-    justify-content: center;
-    width: 421px;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 80%;
     height: 60px;
     filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
     margin-bottom: 50px;
