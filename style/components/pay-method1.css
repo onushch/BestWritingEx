@@ -1,0 +1,68 @@
+.pay-method {
+    height: 88px;
+    background-color: #caddea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pay-method .content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pay-method .content img {
+    height: 60px;
+}
+
+.left-pay {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right-social .img1 {
+    background-image: url(../../images/Facebook.svg);
+}
+
+.right-social .img1:hover {
+    background-image: url(../../images/Facebook2.svg);
+
+}
+
+.right-social .img2 {
+    background-image: url(../../images/Twiter.svg);
+  
+}
+
+.right-social .img2:hover {
+    background-image: url(../../images/Twiter2.svg);
+
+}
+
+.right-social .img3 {
+    background-image: url(../../images/Pinterest.svg);
+
+}
+
+.right-social .img3:hover {
+    background-image: url(../../images/Pinterest2.svg);
+    filter: brightness(50%);
+}
+
+.right-social > div {
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: flex;
+}

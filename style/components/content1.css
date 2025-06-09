@@ -1,4 +1,4 @@
-.content1 {
+ .content1 {
 
     background-image: url(../../images/Bg2.svg);
     background-color: #f4f6fa;
@@ -60,8 +60,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    /* filter: drop-shadow(2px 3.464px 3.5px rgba(155, 182, 190, 0.75));
-    background-color: #ffffff; */
 }
 
 .cont-4 h4 {
@@ -142,4 +140,4 @@
 .cont-4 button:hover {
     background-color: #054376;
     cursor: pointer;
-}
+} 

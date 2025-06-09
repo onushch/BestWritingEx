@@ -124,7 +124,7 @@
 
 .contain .col-12 {
     display: flex;
-    gap: 95px;
+    gap: 100px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0;
@@ -146,7 +146,9 @@
 }
 
 .form select {
-    width: 310px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     height: 35px;
     color: #075da2;
 }
@@ -172,30 +174,33 @@
 
 .contain .order h2 {
     background: #dd0000;
-    max-width: 100%;
-    width: 312px;
+    width: 100%;
+    max-width: 310px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
+    margin-bottom: 50px;
     filter: drop-shadow(2px 3.464px 3.5px rgba(2, 68, 121, 0.75));
     position: relative;
+    transition: color 0.3s ease;
+    padding: 0px 15px;
 
     &:hover {
         cursor: pointer;
         color: #ffffffa2;
     }
-
-
 }
+
+
 
 .contain .order::after {
     content: '';
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-top: 30px solid #dd0000;
     border-right: 30px solid transparent;
     position: relative;
     bottom: 25px;
 }
-
