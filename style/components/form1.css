@@ -58,6 +58,7 @@
     background-color: var(--color_btn_send_message_hover);
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     padding-left: 33px;
     justify-content: space-evenly;
@@ -146,11 +147,20 @@
 }
 
 .form select {
-    width: 100%;
-    max-width: 100%;
+    max-width: auto;
+    width:290px;
     box-sizing: border-box;
     height: 35px;
     color: #075da2;
+}
+
+@media screen and (max-width:992px){
+  .form select{
+    background-image: url(../../images/Bg1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
 }
 
 .contain h4 {
